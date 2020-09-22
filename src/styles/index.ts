@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export const Main = styled.main`
   .first {
-    background: red;
+    background: lightpink;
     overflow: hidden;
 
     .offset {
@@ -56,12 +56,12 @@ export const Main = styled.main`
 
   
   .third {
-    background: yellow;
+    background: lightblue;
   }
 
   
   .fourth {
-    background: blue;
+    background: lightgreen;
   }
 
 `;

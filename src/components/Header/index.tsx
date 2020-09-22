@@ -6,13 +6,13 @@ import { Container } from './styles';
 const Header: React.FC = () => {
   const { scrollYProgress } = useViewportScroll();
 
-  const frameOpacity = useTransform(
+  const headerY = useTransform(
     scrollYProgress,
-    [0.196, 0.198],
-    [0, 1]
+    [0.188, 0.2],
+    ['0%', '-100%']
   );
 
-  return <Container style={{ opacity: frameOpacity }} />;
+  return <Container style={{ y: headerY }} />;
 }
 
 export default Header;
